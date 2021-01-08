@@ -1,5 +1,5 @@
 #!/bin/sh
 
-YAYLIST=$DOTFILES_BASE/yaylist.txt
+YAYLIST=$DOTFILES_LINKS_DIR/.yaylist.txt
 
 yay -S - --save --nocleanmenu --nodiffmenu --norebuild --noredownload < $YAYLIST

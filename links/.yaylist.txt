@@ -15,6 +15,8 @@ github-cli
 hex
 hyperfine
 jq
+mongocli-bin
+mongodb-tools-bin
 openssh
 procs-bin
 ripgrep
