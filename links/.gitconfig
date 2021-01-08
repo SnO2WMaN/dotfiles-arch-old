@@ -1,0 +1,10 @@
+[user]
+    email = 15155608+SnO2WMaN@users.noreply.github.com
+    name = SnO2WMaN
+    
+[credential "https://github.com"]
+    helper = !gh auth git-credential
+
+[alias]
+    c = commit --verbose
+    initc = commit --allow-empty -m 'Initial Commit'
