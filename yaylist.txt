@@ -4,6 +4,9 @@ bat
 bottom-bin
 circleci-cli-bin
 direnv-bin
+docker
+docker-compose
+dust-bin
 exa
 fzf
 ghq-bin
