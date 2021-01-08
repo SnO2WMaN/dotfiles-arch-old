@@ -1,0 +1,5 @@
+#!/bin/sh
+
+YAYLIST=$DOTFILES_BASE/yaylist.txt
+
+yay -S - --save --nocleanmenu --nodiffmenu --norebuild --noredownload < $YAYLIST

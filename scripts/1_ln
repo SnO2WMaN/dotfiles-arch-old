@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for file in `ls $DOTFILES_LINKS_DIR -1AF | grep -v / | grep '^\.'`; do
+  ln -sfv $(echo $DOTFILES_LINKS_DIR/$file | xargs readlink -f) ~/${file}
+done
